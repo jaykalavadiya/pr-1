@@ -1,0 +1,437 @@
+/* XL */
+@media (max-width:1399px){
+    .container{
+        max-width: 1140px;
+    }
+}
+
+/* LG */
+
+@media(max-width:1199px){
+    .container{
+        max-width: 960px;
+    }
+    .w-lg-1{
+        width: 100%;
+    }
+    .w-lg-2{
+        width: 50%;
+    }
+    .w-lg-3{
+        width: 33.33%;
+    }
+    .text-lg-center{
+        text-align: center;
+    }
+    .toggle-manu{
+        display: block;
+        margin-left: 20px;
+    }
+    .navbar{
+        padding: 15px 0;
+    }
+    .category .cart span {
+        position: absolute;
+        background-color: var(--theme-red);
+        color: var(--theme-white);
+        border-radius: 50%;
+        width: 17px;
+        height: 17px;
+        padding: 0;
+        line-height: 17px;
+        top: -12px;
+        right: -12px;
+        font-size: 14px;
+    }
+    nav{
+        position: absolute; 
+        top:100%;
+        left: 0%;
+        right: 0;
+        background-color: #fff;
+        z-index: 1;
+        display: none;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li{
+        margin: 15px 0 15px 15px;
+        
+    }
+    nav ul li a{
+        padding: 0;
+    }
+
+    .banner-content h1{
+        font-size: 58px;
+    }
+    .banner-content .img-1 , .banner-content .img-2 ,.banner-content .img-3 ,.banner-content .img-4 ,.banner-content .img-5 ,.banner-img .img-6 ,.banner-img .img-7{
+        display: none;
+    }
+
+    /* features */
+
+    .features-items{
+        margin-bottom: 30px;
+    }
+
+    /* about */
+
+    .about-img img{
+        padding: 0 20px;
+    }
+    .about-content h2 , .partner-title h2 , .categories-title h2
+    , .course-title h2 , .choose-us-content h2 , .career-title h2
+    , .instructor-title h2 , .blog-news-title h2{
+        font-size: 32px;
+    }
+    .about-content h5 , .partner-title h4 ,.categories-title h4
+    , .course-title h4 , .choose-us-content h5 , .career-title h4
+    , .instructor-title h4 , .touch-items h4 , .blog-news-title h4{
+        font-size: 18px;
+    }
+    .about-content ul li p{
+        font-size: 18px;
+    }
+
+    /* valuation */
+
+    .valuation-items{
+        margin-bottom: 30px;
+        /* text-align: center; */
+    }
+    
+    /* categories */
+
+    .categories-items{
+        padding: 20px 15px;
+        gap: 10px;
+        margin: 0 10px 20px 10px;
+    }
+
+    /* course */
+
+    .course-items{
+        padding: 15px;
+        margin: 0 10px 20px 10px;
+    }
+    .course-items h3 a{
+        font-size: 20px;
+    }
+    .choose-us-content h4{
+        font-size: 16px;
+    }
+    .choose-us-items .choose-us-content p {
+        font-size: 16px;
+    }
+
+    /* career */
+
+    .career-items {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 40px;
+    }
+
+    /* touch */
+
+    .touch-items h2{
+        font-size: 30px;
+    }
+    .touch-items h3{
+        font-size: 36px;
+        line-height: 50px;
+    }
+    .accordion-title a{
+        font-size: 18px;
+    }
+    .accordion-body p{
+        font-size: 16px;
+    }
+
+    /* blog */
+
+    .blog-items {
+        padding: 10px 10px 20px 10px;
+    }
+    .blog-content ul li a{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .blog-content ul li:first-child{
+        margin: 0 10px 0 0;
+    }
+    .blog-content h3{
+        font-size: 20px;
+    }
+
+    /* footer */
+
+    .footer-inner .row .w-4:first-child {
+        margin-bottom: 50px;
+    }
+}
+
+/* MD */
+
+@media(max-width:991px){
+    .container{
+        max-width: 720px;
+    }
+    .w-md-1{
+        width: 100%;
+    }
+    .w-md-2{
+        width: 50%;
+    }
+    .w-md-4{
+        width: 25%;
+    }
+    .d-md-none{
+        display: none;
+    }
+
+    .banner-content h1{
+        font-size: 40px;
+    }
+
+    /* features */
+
+    .features , .partner , .categories , .choose-us , .testimonial, .instructor
+    , .blog-news{
+        padding: 80px 0;
+    }
+
+    /* about */
+
+    .about-img{
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .about-content{
+        padding-left: 0;
+    }
+    .about-content h2{
+        font-size: 28px;
+        max-width: 100%;
+    }
+    .about-content p{
+        font-size: 16px;
+    }
+    .about-content ul{
+        margin: 20px 0 25px 0;
+    }
+    .about-content ul li i{
+        font-size: 18px;
+    }
+    .about-content ul li p{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    /* partner */
+
+    .partner-inner .w-5:first-child .partner-img{
+        margin-bottom: 0;
+    }
+
+    /* categories */
+
+    .categories-title h4 {
+        margin-bottom: 0;
+    }
+    .categories-title h2 , .choose-us-content h2 ,.career-title h2 
+    , .instructor-title h2 , .blog-news-title h2 , .testimonial-title h2{
+        font-size: 28px;
+    }
+
+    /* choose-us */
+
+    .choose-us-content h4{
+        font-size: 20px;
+    }
+    .choose-us-items .choose-us-content p {
+        font-size: 18px;
+        max-width: 300px;
+    }
+    .choose-us-img{
+        margin-top: 20px;
+    }
+
+    /* career */
+
+    .career-items{
+        padding: 22px;
+    }
+    .career-img{
+        margin: 0 auto;
+    }
+
+    /* instructor */
+
+    .instructor-inner .row .w-3:last-child {
+        margin-top: 30px;
+    }
+
+    /* blog */
+
+    .blog-inner .row .w-3:last-child{
+        margin-top: 30px;
+    }
+
+    /* footer */
+
+    .contcat-inner{
+        padding: 50px 0;
+    }
+    .footer-contact p{
+        font-size: 16px;
+    }
+    .footer-contact a{
+        font-size: 16px;
+    }
+    .footer-contact a i {
+        margin: 0 3px 0 0;
+    }
+    .footer-inner{
+        padding: 40px 0;
+    }
+    .footer-items {
+        margin: 0;
+    }
+    .footer-icon a{
+        margin: 5px;
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+}
+
+/* SM */
+
+@media(max-width:767px){
+    .container{
+        max-width: 540px;
+    }
+    .w-sm-1{
+        width: 100%;
+    }
+    .w-sm-2{
+        width: 50%;
+    }
+
+    .navbar .category>a{
+        display: none;
+    }
+    /* banner */
+
+    .banner{
+        padding: 130px 0 50px 0;
+    }
+    .banner-content h6{
+        font-size: 18px;
+    }
+    .banner-content p{
+        font-size: 16px;
+    }
+
+    /* features */
+
+    .features , .partner , .categories , .course , .career
+    , .touch , .testimonial{
+        padding: 50px 0;
+    }
+    .features-content p{
+        font-size: 16px;
+    }
+
+    /* partner */
+
+    .partner-inner .w-5:first-child .partner-img{
+        margin-bottom: 30px;
+    }
+
+    /* valuation */
+    
+    .valuation-items{
+        padding-left: 150px;
+    }
+
+    /* choose-us */
+
+    .choose-us-items{
+        margin: 10px 0 15px 0;
+    }
+    .choose-us-content h4{
+        font-size: 16px;
+    }
+    .choose-us-items .choose-us-content p{
+        font-size: 16px;
+    }
+
+    /* instructor */
+
+    .instructor-inner .row .w-3:nth-child(2){
+        margin-top: 30px;
+    }
+
+    .testimonial-items p{
+        font-size: 16px
+    }
+    /* touch */
+
+    .touch-items h3{
+        font-size: 28px;
+    }
+
+    /* blog */
+
+    .blog-inner .row .w-3:nth-child(2){
+        margin-top: 30px;
+    } 
+    
+    /* footer */
+
+    .footer-inner {
+        padding: 50px 0;
+    }
+    .contcat-inner .row .w-3:nth-child(2){
+        margin: 20px 0;
+    }
+    .contcat-inner .row .footer-contact{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 0;
+    }
+    .footer-inner .footer-items{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .copyright-items{
+        font-size: 18px;
+    }
+
+}
+
+/* XS */
+
+@media(max-width:575px){
+    .container{
+        max-width: 100%;
+    }
+    .w-xs-1{
+        width: 100%;
+    }
+    .banner {
+        padding: 50px 0 50px 0;
+    }
+    .choose-us{
+        padding: 50px 15px;
+    }
+    .valuation-items{
+        padding-left: 20px;
+    }
+}
